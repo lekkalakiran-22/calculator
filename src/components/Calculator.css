@@ -5,7 +5,13 @@ padding:0;
 box-sizing:border-box;
 font-family:Poppins,sans-serif;
 }
-
+h1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:black;
+    padding:20px
+}
 .container {
   width: 100%;
   min-height: 100vh;
@@ -85,8 +91,8 @@ color:#ff4b4b;
 }
 
 .operator{
-color:#00d5ff;
-background:rgba(0,213,255,.15);
+color:black;
+background:skyblue;
 }
 
 .equal{

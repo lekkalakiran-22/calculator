@@ -113,6 +113,7 @@ function Calculator() {
   }, [input]);
 
   return (
+   <div> <h1>Modern Calculator</h1>
     <div className="container">
       <div className="calculator">
 
@@ -189,6 +190,7 @@ function Calculator() {
         </button>
 
       </div>
+    </div>
     </div>
   );
 }
